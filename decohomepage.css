@@ -1,0 +1,263 @@
+body
+{
+    background-color:#edf5e1; /*rgba(0,0,0,.7);#9c9d84;*/
+    margin: 0;
+    padding: 0;
+}
+/*=========================================FIELD SECTION=========================*/
+fieldset
+{
+    margin: 0;
+    padding: 2px;
+}
+/*=============================================HEADER PANEL==========================*/
+#header
+{
+    background-color:#1f2833;/*#fc4445; /*rgba(0,0,0,.7);#e5e4d7;*/
+    width: 99%;
+    height: 70px;
+    text-align: center;
+    font-size:25px;
+    font-family: georgia;
+    margin-top: 3px;
+    position: absolute;
+    top: 0%;
+    opacity: .9;
+    color:#edf5e1;
+    border-bottom: 3px solid red;
+}
+h2
+{
+    position: absolute;
+    top: -20px;
+    left: 15em;
+}
+/*=====================================================PARA SECTION====================*/
+.para1
+{
+    font-size: 15px;
+    position: absolute;
+    top:30px;
+    left: 40em;
+}
+#write{
+    position: absolute;
+    top: 32px;
+    left: 90%;
+}
+/*======================================================NAVBAR SECTION========================*/
+#navbar
+{
+    background-color: #1f2833;/*#fc4445;/*#e5e4d7;*/
+    position: absolute;
+    top: 11.5%;
+    width: 99%;
+    height: 40px;
+    font-size: 20px;
+    font-family: arial;
+    text-align: center;
+    opacity: 0.9;
+    color: #000;
+    border-bottom: 2px solid red;
+}
+#navbar ul
+{
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+#navbar ul li
+{
+    float: left;
+    font-size: 20px;
+    font-family: arial;
+    width: 200px;
+    height: 40px;
+    line-height:40px;
+    border-right: 2px;
+    background-color:#1f2833; /*#fc4445;/*#e5e4d7;*/
+    
+}
+
+#navbar ul li a
+{
+    text-decoration: none;
+    color:#c5c6c7;
+    font-family:arial;
+    display: block;
+}
+
+#navbar ul li a:hover
+{
+   background-color: #1a1a1d;/*#282828;*/
+    color:#45a29e;
+}
+#navbar ul li ul li
+{
+    display:none;
+}
+#navbar ul li:hover ul li
+{
+    display: block;
+    background-color:#4e4e50;
+    color:#45a29e;
+}
+#navbar2
+{
+   background-color: #e5e4d7;
+    height: 35px;
+    border: 1px medium black;
+    border-radius: 5px;
+    margin: 10px; 
+}
+/*=================================================input panel================*/
+.label1
+{   
+    font-size:40px;
+    font-family: gerogia;
+    margin: 0px;
+    color: darkkhaki;
+    position: absolute;
+    top: 7em;
+    left: 13em;
+    color:black; 
+}
+.searchinput
+{
+    font-size:inherit;
+    padding: 7px;
+    border: 1px solid darkgreen;
+    border-radius:0.5em 0em 0em 0.5em;
+    width: 20em;
+    outline: 0;
+}
+.searchinput:hover
+{
+    border-color: #4d4;
+}
+.searchbox
+{
+    display:inline-flex;
+    font-size: 20px;
+     position: absolute;
+    top: 17em;
+    left: 21em;
+    
+}
+.searchbutton
+{
+    border: 1px solid darkgreen;
+    border-left: 0;
+    border-radius:0 0.5em 0.5em 0;
+    background-color: #7e7;
+    color: white;
+    padding: 0 0.7em;
+   outline: 0;
+}
+.searchbutton:hover{
+    border-color: #4d4;
+}
+.searchbutton:focus,.searchinput:focus
+{
+    outline: none;
+}
+/*=======================================================MAIN SECTION===========================*/
+.main
+{
+    margin: 0px;
+    padding: 0px 8px 0 2px;
+    width: 1277px;
+    overflow: hidden;
+} 
+/*****************************===============SLIDE SECTION==================================================*/
+#slidebox
+{
+    position: relative;
+    width:5380px;
+    animation-name: slideimage;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+}
+.slide
+{
+    width: 1345px;
+    height: 600px;
+   float: left;
+    display: block;
+}
+@keyframes slideimage
+{
+   0%
+    {
+       left: 0px;    
+    }
+    20%
+    {
+        left: 0px;
+    }
+    25%
+    {
+        left: -1345px;
+    }
+    45%
+    {
+        left: -1345px;
+    }
+    50%
+    {
+        left: -2690px;
+    }
+    70%
+    {
+        left: -2690px;
+    }
+    75%
+    {
+        left: -4035px
+    }
+    95%
+    {
+        left: -4035px;
+    }
+}
+/*===================================================FOOTER SECTION==========================================*/
+#footer
+{
+    background-color:#1f2833;/* #fc4445;/*#e4e5d7;*/
+     text-align: center;
+    width: 99.5%;
+    margin-left: 1px;
+    border-top: 3px solid red;
+   
+}
+#footer ul
+{
+    list-style: none;
+    margin: 7px;
+    padding: 2px;
+}
+#footer ul li
+{
+    display: inline;
+}
+#footer ul li a
+{
+    text-decoration: none;
+    font-size: 15px;
+    font-family: georgia;
+    text-align: center;
+    color: #c5c6c7;
+   margin: 5px;
+    padding: 5px;
+    padding-top: 0px;
+    height: 7px;
+    line-height: 7px;
+    
+}
+#footer ul li a:hover
+{
+    background-color:#282828;
+    cursor: pointer;
+    color: #45a29e;
+}

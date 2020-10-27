@@ -1,0 +1,114 @@
+body
+{
+    background:#4e4e50; /*#151719;*/
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+h3
+{
+    color: #ffffff;
+}
+#all
+{
+   background:rgba(230,230,230,.7);
+   width: 600px;    
+   position: fixed;
+   left: 380px;
+}
+#all #option
+{
+    background: rgba(130,130,130,.7);
+    width: 200px;
+    height: 300px;
+    
+}
+#all #option ul
+{
+    margin: 2px;
+    padding: 0;
+}
+#all #option ul li
+{
+    list-style: none;
+    padding: 10px 0px;
+    border-bottom: 1px solid rgba(130,130,130,.8); 
+}
+#all #option ul li:hover{
+    cursor: pointer;
+    background: grey;
+}
+#all #option #debitpay
+{
+    background: #181015;
+    width: 300px;
+    position: absolute;
+    left: 200px;
+    /*left: -710px;*/
+    top: 1px;
+    margin: 0;
+    padding: 10px;
+    height: 275px;
+    border: 2px solid red;
+    text-align: center;
+    /*transition: all 10ms linear;*/
+}
+/*#all #option #debitpay.active{
+    left: 200px;
+}*/
+#all #option #creditpay
+{
+    background: #181015;
+    width: 300px;
+    position: absolute;
+    left: -710px;
+    top: 1px;
+    margin: 0px;
+    padding: 10px;
+    height: 275px;
+    border: 2px solid red;
+    text-align: center;
+    transition: all 10ms linear;
+}
+#all #option #creditpay.active{
+    left: 200px;
+}
+
+
+
+#all #option #debitpay input
+{
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+    outline: none;
+}
+#all #option #creditpay input
+{
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+    outline: none;
+}
+#all #option #netbanking
+{
+    background: #181015;
+    width: 300px;
+    position: absolute;
+    left: -710px;
+    top: 1px;
+    margin: 0;
+    padding: 10px;
+    height: 275px;
+    border: 2px solid red;
+    text-align: center;
+    transition: all 10ms linear;
+}
+#all #option #netbanking.active{
+    left: 200px;
+}
+.net
+{
+    width: 200px;
+    height: 50px;
+}

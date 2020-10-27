@@ -1,0 +1,45 @@
+body
+{
+    background-image: url(the_dark_tower_by_machiavellicro.jpg);
+    background-size: cover;
+    margin: 0px;
+    padding: 0px;
+}
+.main3
+{
+    text-align: center;
+    font-size: 20px;
+    font-family: ariel;
+    color:black;
+    border: 1px;
+    border-radius: 3px;
+    width: 600px;
+    position: absolute;
+    top: 50px;
+    left: 380px;
+}
+.name1
+{
+    font-size:15px;
+    font-style:bold;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius:50px;
+    outline: 0;
+}
+.name2
+{
+    background-color: black;
+    color: white;
+    font-family: sans-serif;
+    font-size: 20px;
+    padding: 10px;
+    width: 280px;
+    border-color: solid white;
+}
+.name2:hover
+{
+    background-color: white;
+    color: black;
+    border-color:solid black;
+}

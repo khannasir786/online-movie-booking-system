@@ -1,0 +1,296 @@
+body
+{
+    background-color:#4e4e50;/*#edf5e1;/*#fc4445;/*#9c9d84;*/
+    font-size: 20px;
+    font-family: georgia;
+    text-align: center;
+    background-blend-mode:darken;
+}
+.fa
+{
+    color:red;
+}
+.fa:hover
+{
+    color: red;
+    cursor: pointer;
+}
+.ta
+{
+    color:black;
+}
+/*====================================================BUTTON SECTION===============================*/
+#love
+{
+    background-color:#282828; /*#9c9d84;*/
+    border: none;
+    font-size: 25px;
+    color: red;
+    text-align: center;   
+}
+#love:hover
+{
+    background-color: floralwhite;
+    cursor: pointer;
+}
+fieldset
+{
+    opacity: 1.0;
+    height: 550px;
+}
+#current1
+{
+    float:left;
+    width: 400px;
+    background-color: red;
+    display: inline;
+    margin: 10px;
+    margin-left: 40px;
+}
+#current2
+{
+    width: 400px;
+    margin: 10px;
+    float: left;
+    background-color: green;
+}
+#current3
+{
+    width: 400px;
+    margin: 10px;
+    float: left;
+    background-color: red;
+}
+/*===========================================CURRENT1 SECTION====================================*/
+#current1 ul
+{
+    list-style: none;
+    text-align: center;
+    padding: 0;
+    margin: 0px;
+}
+#current1  ul li a
+{  text-decoration: none;
+    font-family:Century Gothic;
+    background-color:#9c9d84;
+    display: block;
+    width: 300px;
+    margin: 20px;
+    margin-left: 35px;
+    padding: 10px;
+    text-align: center;
+    height: 25px;
+    line-height: 25px;
+    border: 2px solid black;
+    border-radius: 20px;
+    color: white; 
+   
+}
+#current1 ul li a:hover
+{
+   background-color:floralwhite;
+   color: black; 
+}
+/*========================================================CURRENT2 SECTION===============================*/
+#current2 ul
+{
+    list-style: none;
+    text-align: center;
+    padding: 0;
+    margin: 0px;
+}
+#current2  ul li a
+{  text-decoration: none;
+    font-family: georgia;
+    background-color:#9c9d84;
+    display: block;
+    width: 300px;
+    margin: 20px;
+    margin-left: 35px;
+    padding: 10px;
+    text-align: center;
+    height: 25px;
+    line-height: 25px;
+    border: 2px solid black;
+    border-radius: 20px;
+    color: white; 
+   
+}
+#current2 ul li a:hover
+{
+   background-color:floralwhite;
+   color: black; 
+}
+/*==================================================CURRENT3 SECTION======================================*/
+#current3 ul
+{
+    list-style: none;
+    text-align: center;
+    padding: 0;
+    margin: 0px;
+}
+#current3  ul li a
+{  text-decoration: none;
+    font-family: georgia;
+    font-size: 18px;
+    background-color:#9c9d84;
+    display: block;
+    width: 300px;
+    margin: 20px;
+    margin-left: 35px;
+    padding: 10px;
+    text-align: center;
+    height: 25px;
+    line-height: 25px;
+    border: 2px solid black;
+    border-radius: 20px;
+    color: white; 
+   
+}
+#current3 ul li a:hover
+{
+   background-color:floralwhite;
+   color: black; 
+}
+/*=======================================HEADING SECTION===============================*/
+h2
+{
+    margin-top: 0;
+  font-size: 40px;
+    font-weight: bold;
+    font-style: italic;
+    color: #c1c6c7;
+    text-decoration: underline;
+    background-color:#1f2833;/*#4e4e50; /*#553d67;*/
+    height: 100px;
+    line-height: 100px;
+    border-bottom: 3px solid red;
+}
+h3
+{
+    font-size: 30px;
+    font-style: italic;
+    font-weight: bold;
+    color: #c1c6c7;
+    text-decoration: underline;
+}
+/*=======================================================UPCOMING SECTION====================================*/
+#upcoming
+{
+   opacity: 1.0;
+    margin-top: 5px;
+    height: 600px;
+}
+/*=========================================================UPCOMING 1 SECTION=================================*/
+#upcoming1
+{
+    float:left;
+    width: 400px;
+    background-color: red;
+    display: inline;
+    margin: 10px;
+    margin-left: 40px;
+}
+#upcoming1 ul
+{
+    list-style: none;
+    text-align: center;
+    padding: 0;
+    margin: 0px;
+}
+#upcoming1  ul li a
+{  text-decoration: none;
+    font-family: georgia;
+    background-color:#9c9d84;
+    display: block;
+    width: 300px;
+    margin: 20px;
+    margin-left: 35px;
+    padding: 10px;
+    text-align: center;
+    height: 25px;
+    line-height: 25px;
+    border: 2px solid black;
+    border-radius: 20px;
+    color: white; 
+   
+}
+#upcoming1 ul li a:hover
+{
+   background-color:floralwhite;
+   color: black; 
+}
+/*============================================================UPCOMING 2 SECTION================================*/
+#upcoming2
+{
+    width: 400px;
+    margin: 10px;
+    float: left;
+    background-color: green;
+}
+#upcoming2 ul
+{
+    list-style: none;
+    text-align: center;
+    padding: 0;
+    margin: 0px;
+}
+#upcoming2  ul li a
+{  text-decoration: none;
+    font-family: georgia;
+    background-color:#9c9d84;
+    display: block;
+    width: 300px;
+    margin: 20px;
+    margin-left: 35px;
+    padding: 10px;
+    text-align: center;
+    height: 25px;
+    line-height: 25px;
+    border: 2px solid black;
+    border-radius: 20px;
+    color: white; 
+   
+}
+#upcoming2 ul li a:hover
+{
+   background-color:floralwhite;
+   color: black; 
+}
+/*===============================================================UPCOMING 3 SECTION=========================================*/
+#upcoming3
+{
+    width: 400px;
+    margin: 10px;
+    float: left;
+    background-color: red;
+}
+#upcoming3 ul
+{
+    list-style: none;
+    text-align: center;
+    padding: 0;
+    margin: 0px;
+}
+#upcoming3  ul li a
+{  text-decoration: none;
+    font-family: georgia;
+    background-color:#9c9d84;
+    display: block;
+    width: 300px;
+    margin: 20px;
+    margin-left: 35px;
+    padding: 10px;
+    text-align: center;
+    height: 25px;
+    line-height: 25px;
+    border: 2px solid black;
+    border-radius: 20px;
+    color: white; 
+   
+}
+#upcoming3 ul li a:hover
+{
+   background-color:floralwhite;
+   color: black; 
+}

@@ -1,0 +1,46 @@
+<!doctype html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="paymentdeco.css">
+    
+</head>
+    <body>
+    <h3>Complete your payment</h3>
+        <div id="all">
+        <div id="option">
+        <ul>
+        <li id="debit" onclick="displaydiv()">Debit card
+            <div id="debitpay">
+                <br>
+                <h3>Debitcard</h3>
+            <input type="text" placeholder="Enter your card number"><br><br>
+            <input type="text" placeholder="Valid thru"><br><br>
+                <input type="password" placeholder="cvv"><br><br>
+                <button id="key" type="submit" onclick="done()">Proceed</button>
+            </div>    
+        </li> 
+        <li id="credit" onclick="displaydiv()">credit card
+            <div id="creditpay">
+                <br>
+                <h3>Creditcard</h3>
+            <input type="text" placeholder="Enter your card number"><br><br>
+            <input type="text" placeholder="Valid thru"><br><br>
+                <input type="password" placeholder="cvv"><br><br>
+                <button type="submit">Proceed</button>
+            </div> 
+            </li> 
+            <li id="net1" onclick="displaynet()">Net Banking
+            <div id="netbanking">
+                <h3>Select your bank</h3>
+            <a  href="https://www.unionbankonline.co.in/corp/BANKAWAY?Action.RetUser.Init.001=Y&AppSignonBankId=026&AppType=corporate"><img class="net" src="unibas.jpg"></a><a  herf="https://retail.onlinesbi.com/retail/login.htm"><img class="net"  src="1111.jpe"></a>                          <a href="https://netbanking.netpnb.com/corp/AuthenticationController?FORMSGROUP_ID__=AuthenticationFG&__START_TRAN_FLAG__=Y&__FG_BUTTONS__=LOAD&ACTION.LOAD=Y&AuthenticationFG.LOGIN_FLAG=1&BANK_ID=024"><img class="net"   src="PNB-logo.jpg"></a>
+            </div>
+            </li> 
+        </ul>
+        </div>
+            <div id="result" style="margin-top: 2px;border:2px solid black;;background: rgba(0,0,0,.7)">
+            <p id="payment">Payment Status </p> 
+            </div>
+             </div>
+    </body>
+    <script src="homapage.js"></script>
+</html>
